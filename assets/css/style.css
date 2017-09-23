@@ -1,19 +1,21 @@
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
-
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Roboto');
 * {
     user-select: none;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     margin: 0px;
     padding: 0px;
     font-family: 'Indie Flower', cursive;
 }
+
 .content {
     width: 100%;
     height: 100%;
 }
+
 .fullscreen {
     background-image: url("../img/banner.png");
     background-repeat: no-repeat;
@@ -22,10 +24,32 @@ html, body {
     height: 100%;
     display: table;
 }
+
 .fullscreen .text {
-    color: black;
+    color: #000;
     display: table-cell;
     vertical-align: middle;
     text-align: center;
     font-size: 3.5em;
+}
+
+.description-box {
+    background-color: #B7B8BA;
+    width: 100%;
+    margin-bottom: 4%;
+}
+
+.description {
+    width: 68%;
+    margin-left: 10%;
+    padding: 2% 0;
+    font-size: 1.1em;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+.description h1 {
+    font-size: 1.4em;
+}
+.description a {
+    color: #000;
 }
