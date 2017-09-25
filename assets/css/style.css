@@ -34,9 +34,8 @@ body {
 }
 
 .description-box {
-    background-color: #B7B8BA;
+    background-color: #d8d8da;
     width: 100%;
-    margin-bottom: 4%;
 }
 
 .description {
@@ -49,6 +48,14 @@ body {
 
 .description h1 {
     font-size: 1.4em;
+    background: -webkit-linear-gradient(left, #5EABFF, #003e80);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.description p {
+    background: -webkit-linear-gradient(left, #5EABFF, #003e80);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .description a {
     color: #000;
@@ -73,8 +80,40 @@ body {
     text-align: center;
     width: 30%;
     border: 3px solid transparent;
-    -moz-border-image: -moz-linear-gradient(left, #3acfd5 0%, #3a4ed5 100%);
-    -webkit-border-image: -webkit-linear-gradient(left, #3acfd5 0%, #3a4ed5 100%);
-    border-image: linear-gradient(to right, #3acfd5 0%, #3a4ed5 100%);
+    -moz-border-image: -moz-linear-gradient(left, #5EABFF 0%, #003e80 100%);
+    -webkit-border-image: -webkit-linear-gradient(left, #5EABFF 0%, #003e80 100%);
+    border-image: linear-gradient(to right, #5EABFF 0%, #003e80 100%);
     border-image-slice: 1;
+}
+.project h3 {
+    margin-top: 15px;
+    font-size: 1.3em;
+}
+.project p {
+    margin-bottom: 15px;
+}
+.project a {
+    color: #003e80;
+}
+
+/*
+
+ELSE
+
+ */
+.wave{
+    background: #d8d8da;
+    height: 50px;
+    position: relative;
+}
+.wave::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-repeat: repeat;
+    height: 10px;
+    background-size: 20px 20px;
+    background-image: radial-gradient(circle at 10px -5px, transparent 12px, white 13px);
 }
