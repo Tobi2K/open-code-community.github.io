@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 * {
     user-select: none;
 }
@@ -8,7 +8,7 @@ body {
     height: 100%;
     margin: 0px;
     padding: 0px;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Roboto Slab', sans-serif;
 }
 
 .content {
@@ -43,7 +43,6 @@ body {
     margin: 0 auto;
     padding: 2% 0;
     font-size: 1.1em;
-    font-family: 'Roboto Slab', sans-serif;
 }
 
 .description h1 {
