@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 * {
     user-select: none;
 }
@@ -8,7 +8,7 @@ body {
     height: 100%;
     margin: 0px;
     padding: 0px;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Roboto Slab', sans-serif;
 }
 
 .content {
@@ -43,7 +43,6 @@ body {
     margin: 0 auto;
     padding: 2% 0;
     font-size: 1.1em;
-    font-family: 'Roboto Slab', sans-serif;
 }
 
 .description h1 {
@@ -79,11 +78,19 @@ body {
 .project {
     text-align: center;
     width: 30%;
-    border: 3px solid transparent;
-    -moz-border-image: -moz-linear-gradient(left, #5EABFF 0%, #003e80 100%);
-    -webkit-border-image: -webkit-linear-gradient(left, #5EABFF 0%, #003e80 100%);
-    border-image: linear-gradient(to right, #5EABFF 0%, #003e80 100%);
-    border-image-slice: 1;
+    border: 3px solid linear-gradient(260deg, #f9ff06, #2038ff, #ff2020);
+
+    -moz-background-image: -moz-linear-gradient(260deg, #f9ff06, #2038ff, #ff2020);
+    -webkit-background-image: -webkit-linear-gradient(260deg, #f9ff06, #2038ff, #ff2020);
+    background-image: linear-gradient(260deg, #f9ff06, #2038ff, #ff2020);
+
+    background-size: 600% 600%;
+    background-position: 100% 100%, 100% 0;
+    background-repeat: no-repeat;
+
+    -webkit-animation: rainbowfuck 30s ease infinite;
+    -moz-animation: rainbowfuck 30s ease infinite;
+    animation: rainbowfuck 30s ease infinite;
 }
 .project h3 {
     margin-top: 15px;
@@ -134,4 +141,20 @@ ELSE
     border-radius: 1px;
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
     background-color: #B5D8FF;
+}
+
+@-webkit-keyframes rainbowfuck {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes rainbowfuck {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes rainbowfuck {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
