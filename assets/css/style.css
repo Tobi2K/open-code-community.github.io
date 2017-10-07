@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Nosifer|Playfair+Display');
+
 * {
     user-select: none;
 }
@@ -46,13 +49,16 @@ body {
 }
 
 .description h1 {
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: bold;
     font-size: 1.4em;
-    background: -webkit-linear-gradient(left, #5EABFF, #003e80);
+    background: -webkit-linear-gradient(left, #A45EFF, #4D0080);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .description p {
-    background: -webkit-linear-gradient(left, #5EABFF, #003e80);
+    background: black;
+    font-family: 'Playfair Display', sans-serif;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -76,13 +82,14 @@ body {
     padding-bottom: 50px;
 }
 .project {
+    border-radius: 5px;
+    
     text-align: center;
     width: 30%;
-    border: 3px solid linear-gradient(260deg, #f9ff06, #2038ff, #ff2020);
-
-    -moz-background-image: -moz-linear-gradient(260deg, #f9ff06, #2038ff, #ff2020);
-    -webkit-background-image: -webkit-linear-gradient(260deg, #f9ff06, #2038ff, #ff2020);
-    background-image: linear-gradient(260deg, #f9ff06, #2038ff, #ff2020);
+    border: 3px solid linear-gradient(260deg, #1abc9c, #3498db, #9b59b6);
+    -moz-background-image: -moz-linear-gradient(260deg, #1abc9c, #3498db, #9b59b6);
+    -webkit-background-image: -webkit-linear-gradient(260deg, #1abc9c, #3498db, #9b59b6);
+    background-image: linear-gradient(260deg, #1abc9c, #3498db, #9b59b6);
 
     background-size: 600% 600%;
     background-position: 100% 100%, 100% 0;
@@ -91,16 +98,20 @@ body {
     -webkit-animation: rainbowfuck 30s ease infinite;
     -moz-animation: rainbowfuck 30s ease infinite;
     animation: rainbowfuck 30s ease infinite;
+    
 }
 .project h3 {
     margin-top: 15px;
     font-size: 1.3em;
+    font-family: 'Raleway', sans-serif;
 }
 .project p {
     margin-bottom: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
 }
 .project a {
-    color: #003e80;
+    color: #186DB3;
 }
 
 /*
