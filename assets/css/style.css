@@ -55,12 +55,14 @@ body {
     background: -webkit-linear-gradient(left, #A45EFF, #4D0080);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    padding-bottom: 5px;
 }
 .description p {
     background: black;
     font-family: 'Playfair Display', sans-serif;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    padding-bottom: 5px;
 }
 .description a {
     color: #000;
@@ -83,7 +85,7 @@ body {
 }
 .project {
     border-radius: 5px;
-    
+
     text-align: center;
     width: 30%;
     border: 3px solid linear-gradient(260deg, #1abc9c, #3498db, #9b59b6);
@@ -98,7 +100,7 @@ body {
     -webkit-animation: rainbowfuck 30s ease infinite;
     -moz-animation: rainbowfuck 30s ease infinite;
     animation: rainbowfuck 30s ease infinite;
-    
+
 }
 .project h3 {
     margin-top: 15px;
